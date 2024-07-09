@@ -43,21 +43,37 @@ Create a console-based program for managing raid events in a RPG-themed game. Th
 ## Example User Interaction
 
 ```plaintext
-Enter the number of raids: 2
-Enter the name of raid 1: Theatre of Blood
-Enter the party size for Theatre of Blood: 5
-Enter the time of raid Theatre of Blood: 6:00 PM
-Enter the name of raid 2: Chambers of Xeric
-Enter the party size for Chambers of Xeric: 10
-Enter the time of raid Chambers of Xeric: 8:00 PM
+*********************************************
+*            RPG Raid Scheduler             *
+*********************************************
 
-Raids and their details:
-Theatre of Blood:
-  Party Size: 5
-  Time: 6:00 PM
-Chambers of Xeric:
-  Party Size: 10
-  Time: 8:00 PM
+Enter the number of raids: 2
+
+---------------------------------------------
+Enter the details for raid 1:
+---------------------------------------------
+Name: Theatre of Blood
+Party Size: 5
+Time: 6:00 PM
+
+---------------------------------------------
+Enter the details for raid 2:
+---------------------------------------------
+Name: Chambers of Xeric
+Party Size: 10
+Time: 8:00 PM
+
+*********************************************
+*              Raids and Details            *
+*********************************************
+Raid 1: Theatre of Blood
+  - Party Size: 5
+  - Time: 6:00 PM
+
+Raid 2: Chambers of Xeric
+  - Party Size: 10
+  - Time: 8:00 PM
+*********************************************
 ```
 ## Submission Details
 
